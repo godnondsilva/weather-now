@@ -61,7 +61,7 @@ const Search = () => {
 					list: forecastDays,
 				});
 			})
-			.catch(console.log);
+			.catch((err) => console.error('error:' + err));
 	};
 
 	return (

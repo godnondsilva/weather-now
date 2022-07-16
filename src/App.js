@@ -15,7 +15,6 @@ const App = () => {
 	const { weatherCard, weatherForecast } = useContext(WeatherContext);
 	const { theme: themeValue } = useContext(ThemeContext);
 
-	console.log(weatherForecast);
 	return (
 		<ThemeProvider theme={themes[themeValue]}>
 			<ParentContainer>

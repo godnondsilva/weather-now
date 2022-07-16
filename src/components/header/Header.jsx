@@ -22,7 +22,6 @@ const Header = () => {
 		} else {
 			setTheme('light');
 		}
-		console.log(theme);
 	};
 
 	return (
